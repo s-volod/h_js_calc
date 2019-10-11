@@ -1,0 +1,35 @@
+.btn {
+	width: 60px;
+	height: 60px;
+	background: rgb(185, 241, 159);
+	display: inline-block;
+	text-align: center;
+	line-height: 60px;
+	user-select: none; /* ЗАБОРОНЯЄ ВИДІЛЯТИ ТЕКСТ*/
+}
+
+.btn:hover {
+	background: rgb(255, 30, 0);
+	color: #fff;
+}
+
+#calc-wrap {
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+	background: rgb(90, 82, 82); /* Чи можливо можливо взагалі забрати?*/
+}
+
+#calc {
+	width: 240px;
+	display: inline-block;
+}
+
+#inputValue {
+	user-select: none; /* чи треба мені його?*/
+	width: 100%;
+	border: 0;
+	font-size: 16px;
+	resize: none; /* vertical - позволяє міняти розмір поля, але тільки по вертикалі, 
+	а чи потрібно це взагалі? покищо зроблю none*/
+}
